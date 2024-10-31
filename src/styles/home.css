@@ -1,0 +1,35 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    background: #BCD2E8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 3rem;
+}
+
+.container {
+    min-height: 38.5625rem;
+    min-width: 47.125rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #1E3F66;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+
+  @media screen and (max-width: 970px) {
+    body {
+        height: auto;
+        margin: 3rem;
+    }
+    .container {
+      min-width: 0rem;
+    }
+  }
+
