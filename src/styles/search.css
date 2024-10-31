@@ -1,0 +1,28 @@
+.search-form {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+
+    .city-input {
+        padding: 1rem;
+        font-size: 1.25rem;
+        border:none;
+        border-radius: 4rem;
+        max-width: 15rem;
+        outline: none;
+    }
+
+    .search-button {
+        padding: 1rem 1.5rem;
+        font-size: 1.25rem;
+        border: none;
+        background-color: #BCD2E8;
+        color: #1E3F66;
+        border-radius: 4rem;
+        font-weight: 600;
+        cursor: pointer;
+        text-transform: uppercase;        
+    }
+}
